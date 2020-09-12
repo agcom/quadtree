@@ -1,0 +1,67 @@
+.root {
+
+    accent: #607D8B;
+    textPrimary: #212121;
+    textSecondary: #757575;
+    divider: #BDBDBD;
+    primary: #795548;
+    darkPrimary: #5D4037;
+    lightPrimary: #D7CCC8;
+
+}
+
+.label {
+
+    -fx-text-fill: textPrimary;
+    -fx-font-family: Verdana, Arial, sans-serif;
+    -fx-font-smoothing-type: lcd;
+    -fx-font-size: 14;
+
+}
+
+.separator .line {
+
+    -fx-border-style: solid;
+    -fx-border-color: divider;
+    -fx-border-width: 0.2;
+
+}
+
+.jfx-button {
+
+    -fx-background-color: accent;
+    -fx-background-radius: 0;
+    -jfx-button-type: FLAT;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-size: 14;
+
+}
+
+.jfx-text-field, .jfx-password-field {
+
+    -jfx-focus-color: darkPrimary;
+    -jfx-unFocus-color: lightPrimary;
+
+}
+
+.text-field {
+
+    -fx-prompt-text-fill: textSecondary;
+    -fx-font-size: 14;
+
+}
+
+.labeled-separator .label {
+
+    -fx-text-fill: textSecondary;
+    -fx-font-style: italic;
+
+}
+
+.jfx-rippler {
+
+    -jfx-rippler-fill: white;
+
+}
