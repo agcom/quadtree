@@ -2,9 +2,7 @@ import io.reactivex.plugins.RxJavaPlugins
 import javafx.application.Application
 import javafx.scene.Scene
 import javafx.scene.image.Image
-import javafx.scene.layout.StackPane
 import javafx.stage.Stage
-import quadtree.QuadTree
 import utils.loadFXML
 
 @JvmName("Launcher")
@@ -17,9 +15,9 @@ class Launcher : Application() {
         primaryStage.apply {
 
             scene = Scene(loadFXML("layouts/home.fxml"))
-            title = "QuadTree & RTree"
+            title = "QuadTree"
             icons.add(Image("images/launcher.png"))
-            show();
+            show()
 
         }
 
