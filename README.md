@@ -12,7 +12,7 @@ Have a look,
 
 ## Ingredients
 
-Built on top of [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) language with help of the following awesome tools,
+Built on top of [Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine) with help of the following awesome tools,
 
 - [JavaFX](https://openjfx.io/)
 
@@ -38,35 +38,37 @@ To get a local copy **up and running** follow these simple steps,
 
 1. Make sure **Java 11** or higher is installed.
 
+	> Word *Java* is used as a substitution for *JVM*; Java virtual machine.
+
 2. Clone the repository.
 
-	> You can do this either by using the `git` command,
-	>
-	> ```sh
-	> git clone https://github.com/agcom/quad-tree.git
-	> ```
-	>
-	> or downloading and extracting the [project `zip` artifact](https://github.com/agcom/quad-tree/archive/master.zip).
+  > You can do this either by using the `git` command,
+  >
+  > ```sh
+  > git clone https://github.com/agcom/quad-tree.git
+  > ```
+  >
+  > or downloading and extracting the [project's `zip` artifact](https://github.com/agcom/quad-tree/archive/master.zip).
 
 3. Run the application.
 
-	> You need to invoke the gradle `run` task to get the application running.
-	>
-	> You can use the pre-made **gradle scripts** even if you don't have the required gradle bundle installed.
-	>
-	> - On Linux,
-	>
-	> 	```sh
-	> 	./gradlew run
-	> 	```
-	>
-	> - On Windows,
-	>
-	> 	```powershell
-	> 	./gradlew.bat run
-	> 	```
-	>
-	> 	For more information on running batch files on Windows visit this [tutorial](https://www.wikihow.com/Run-a-Batch-File-from-the-Command-Line-on-Windows).
+  > You need to invoke the gradle `run` task to get the application running.
+  >
+  > You can use the pre-made **gradle scripts** even if you don't have the required gradle bundle installed.
+  >
+  > - On Linux,
+  >
+  > 	```sh
+  > 	./gradlew run
+  > 	```
+  >
+  > - On Windows,
+  >
+  > 	```powershell
+  > 	./gradlew.bat run
+  > 	```
+  >
+  > 	For more information on running batch files on Windows visit this [tutorial](https://www.wikihow.com/Run-a-Batch-File-from-the-Command-Line-on-Windows).
 
 ## Usage
 
@@ -96,7 +98,7 @@ Let's review the application's interesting features,
 
 	> This may seem strange, but trust me, it's a cool feature!
 	>
-	> Check the *eraser* box and click/drag the cursor on top of some points. This is where the magic happens! Division redo!
+	> Check the *eraser* box and click/drag the cursor on top of some points. This is where the magic happens! Division undo!
 
 - Adjust the input processing delays
 
@@ -104,7 +106,7 @@ Let's review the application's interesting features,
 	>
 	> Delays are necessary to guarantee a lag free experience!
 	>
-	> If you're feeling **lags**, try increasing the delays, most importantly the *draw delay*.
+	> If you're feeling **lags**, try increasing the delays, especially the *draw delay*.
 
 - Some cool statistics about your query efficiency!
 
@@ -124,7 +126,7 @@ If you've gone far, share your code with us. **Pull requests** are appreciated.
 
 ## Contact us
 
-Got questions? Two ways just for you.
+Got questions? Two ways, just for you.
 
 - Create an issue with the ![question-lable](https://img.shields.io/github/labels/agcom/quad-tree/question?style=flat-square) label.
 - Directly contact the [project owner](https://github.com/agcom).
