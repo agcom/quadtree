@@ -94,7 +94,7 @@
 
         <HBox spacing="16">
 
-            <IntField fx:id="drawDelay" promptText="Draw delay" labelFloat="true" text="5" HBox.hgrow="ALWAYS"/>
+            <IntField fx:id="drawDelay" promptText="Draw delay" labelFloat="true" text="0" HBox.hgrow="ALWAYS"/>
 
             <IntField fx:id="queryDelay" promptText="Query delay" labelFloat="true" text="10" HBox.hgrow="ALWAYS"/>
 

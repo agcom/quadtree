@@ -96,7 +96,7 @@ class HomeController : Initializable {
                 }
 
             }, radius.textProperty(), queryWidth.textProperty(), queryHeight.textProperty(), queryShapeGroup.selectedToggleProperty()))
-            it.drawDelay.bind(Bindings.createLongBinding(Callable { drawDelay.text?.toLongOrNull() ?: 5 }, drawDelay.textProperty()))
+            it.drawDelay.bind(Bindings.createLongBinding(Callable { drawDelay.text?.toLongOrNull() ?: 0 }, drawDelay.textProperty()))
             it.queryDelay.bind(Bindings.createLongBinding(Callable { queryDelay.text?.toLongOrNull() ?: 10 }, queryDelay.textProperty()))
 
         }
