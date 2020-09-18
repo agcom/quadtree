@@ -5,11 +5,11 @@ plugins {
     id 'org.openjfx.javafxplugin' version "$javafx_plugin_version"
 }
 
-group = 'ir.agcom'
+group = 'com.github.agcom'
 version = '1.0.0'
 
 application {
-    mainClass = 'Launcher'
+    mainClass = "${project.group}.${project.name}.Launcher"
 }
 
 java {
