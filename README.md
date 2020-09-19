@@ -42,33 +42,33 @@ To get a local copy **up and running** follow these simple steps,
 
 2. Clone the repository.
 
-  > You can do this either by using the `git` command,
-  >
-  > ```sh
-  > git clone https://github.com/agcom/quad-tree.git
-  > ```
-  >
-  > or downloading and extracting the [project's `zip` artifact](https://github.com/agcom/quad-tree/archive/master.zip).
+	> You can do this either by using the `git` command,
+	>
+	> ```sh
+	> git clone https://github.com/agcom/quad-tree.git
+	> ```
+	>
+	> or downloading and extracting the [project's `zip` artifact](https://github.com/agcom/quad-tree/archive/master.zip).
 
 3. Run the application.
 
-  > You need to invoke the gradle `run` task to get the application running.
-  >
-  > You can use the pre-made **gradle scripts** even if you don't have the required gradle bundle installed.
-  >
-  > - On Linux,
-  >
-  > 	```sh
-  > 	./gradlew run
-  > 	```
-  >
-  > - On Windows,
-  >
-  > 	```powershell
-  > 	./gradlew.bat run
-  > 	```
-  >
-  > 	For more information on running batch files on Windows visit this [tutorial](https://www.wikihow.com/Run-a-Batch-File-from-the-Command-Line-on-Windows).
+	> You need to invoke the gradle `run` task to get the application running.
+	>
+	> You can use the pre-made **gradle scripts** even if you don't have the required gradle bundle installed.
+	>
+	> - On Linux,
+	>
+	> 	```sh
+	> 	./gradlew run
+	> 	```
+	>
+	> - On Windows,
+	>
+	> 	```powershell
+	> 	./gradlew.bat run
+	> 	```
+	>
+	> 	For more information on running batch files on Windows visit this [tutorial](https://www.wikihow.com/Run-a-Batch-File-from-the-Command-Line-on-Windows).
 
 ## Usage
 
@@ -86,7 +86,7 @@ Let's review the application's interesting features,
 
 - Spray *random points*
 
-	> Your tree feeling lonely? Give him some babies for god's sake!
+	> Your tree feeling lonely?
 	>
 	> Either drag your cursor on top of the tree, or let us add some *random points*.
 
