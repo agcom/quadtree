@@ -5,7 +5,7 @@ plugins {
     id 'org.openjfx.javafxplugin' version "$javafx_plugin_version"
 }
 
-group = 'com.github.agcom'
+group = 'io.github.agcom'
 version = '1.0.0'
 
 application {
