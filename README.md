@@ -28,7 +28,7 @@ Built on top of [Java virtual machine](https://en.wikipedia.org/wiki/Java_virtua
 
 - [Gradle](https://gradle.org/)
 
-	> The build automation tool, handles the compilation and dependencies.
+	> The build automation tool, handles compilation and dependencies.
 
 - :heart:
 
@@ -52,9 +52,9 @@ To get a local copy **up and running** follow these simple steps,
 
 3. Run the application.
 
-	> You need to invoke the gradle `run` task to get the application running.
+	> You need to invoke the Gradle `run` task to get the application running.
 	>
-	> You can use the pre-made **gradle scripts** even if you don't have the required gradle bundle installed.
+	> You can use the pre-made **Gradle scripts** even if you don't have the required Gradle bundle installed.
 	>
 	> - On Linux,
 	>
