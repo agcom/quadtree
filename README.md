@@ -45,10 +45,10 @@ To get a local copy **up and running** follow these simple steps,
 	> You can do this either by using the `git` command,
 	>
 	> ```sh
-	> git clone https://github.com/agcom/quad-tree.git
+	> git clone https://github.com/agcom/quadtree.git
 	> ```
 	>
-	> or downloading and extracting the [project's `zip` artifact](https://github.com/agcom/quad-tree/archive/master.zip).
+	> or downloading and extracting the [project's `zip` artifact](https://github.com/agcom/quadtree/archive/master.zip).
 
 3. Run the application.
 
@@ -128,5 +128,5 @@ If you've gone far, share your code with us. **Pull requests** are appreciated.
 
 Got questions? Two ways, just for you.
 
-- Create an issue with the ![question-lable](https://img.shields.io/github/labels/agcom/quad-tree/question?style=flat-square) label.
+- Create an issue with the ![question-lable](https://img.shields.io/github/labels/agcom/quadtree/question?style=flat-square) label.
 - Directly contact the [project owner](https://github.com/agcom).
