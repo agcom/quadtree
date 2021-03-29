@@ -32,7 +32,7 @@
 
     <VBox minWidth="300" fx:id="controlPane" spacing="32" SplitPane.resizableWithParent="true">
 
-        <LabeledSeparator text="Quad Tree Specs"/>
+        <LabeledSeparator text="Quadtree Specs"/>
 
         <VBox spacing="24">
 
@@ -109,6 +109,6 @@
 
     </VBox>
 
-    <fx:include source="quadtree.fxml" fx:id="quadTree" SplitPane.resizableWithParent="true"/>
+    <fx:include source="quadtree.fxml" fx:id="quadtree" SplitPane.resizableWithParent="true"/>
 
 </SplitPane>

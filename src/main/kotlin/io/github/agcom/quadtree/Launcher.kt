@@ -18,7 +18,7 @@ class Launcher : Application() {
         primaryStage.apply {
 
             scene = Scene(loadFXML("layouts/home.fxml"))
-            title = "QuadTree"
+            title = "Quadtree"
             icons.add(Image("images/launcher.png".toStream()))
             show()
 

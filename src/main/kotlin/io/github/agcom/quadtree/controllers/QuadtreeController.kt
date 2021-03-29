@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit
 import kotlin.time.ExperimentalTime
 
 @ExperimentalTime
-class QuadTreeController : Initializable {
+class QuadtreeController : Initializable {
 
     val quadTree = SimpleObjectProperty<QuadTree>()
     val query = SimpleObjectProperty<AreaShape>()
@@ -43,7 +43,7 @@ class QuadTreeController : Initializable {
     @FXML
     private lateinit var queryCanvas: Canvas
     @FXML
-    private lateinit var quadTreeCanvas: Canvas
+    private lateinit var quadtreeCanvas: Canvas
     @FXML
     private lateinit var queryArea: BorderPane
     @FXML
@@ -81,7 +81,7 @@ class QuadTreeController : Initializable {
 
         }
 
-        quadTreeCanvas.also {
+        quadtreeCanvas.also {
 
             it.widthProperty().bind(width)
             it.heightProperty().bind(height)
@@ -118,7 +118,7 @@ class QuadTreeController : Initializable {
 
             }
 
-            quadTree.value.draw(quadTreeCanvas)
+            quadTree.value.draw(quadtreeCanvas)
 
         }
 
@@ -183,8 +183,8 @@ class QuadTreeController : Initializable {
 
         drawDisposable = Completable.fromAction {
 
-            quadTreeCanvas.clear()
-            quadTree.value?.draw(quadTreeCanvas)
+            quadtreeCanvas.clear()
+            quadTree.value?.draw(quadtreeCanvas)
             query()
 
         }.subscribeOn(JavaFxScheduler.platform())

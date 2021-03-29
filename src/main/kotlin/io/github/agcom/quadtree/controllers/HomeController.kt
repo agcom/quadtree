@@ -31,7 +31,7 @@ import kotlin.time.ExperimentalTime
 @ExperimentalTime
 class HomeController : Initializable {
 
-    @FXML private lateinit var quadTreeController: QuadTreeController
+    @FXML private lateinit var quadtreeController: QuadtreeController
     @FXML private lateinit var controlPane: VBox
     @FXML private lateinit var logs: TextArea
     @FXML private lateinit var queryShapeGroup: ToggleGroup
@@ -62,7 +62,7 @@ class HomeController : Initializable {
 
     override fun initialize(location: URL?, resources: ResourceBundle?) {
 
-        quadTreeController.also {
+        quadtreeController.also {
 
             it.queryStatistics.value = queryStatistics
             it.erase.bindBidirectional(eraser.selectedProperty())
@@ -132,7 +132,7 @@ class HomeController : Initializable {
 
         val count = randomize.text?.toIntOrNull() ?: 100
 
-        val qTree = quadTreeController.quadTree.value
+        val qTree = quadtreeController.quadTree.value
 
         qTree.clear()
 
@@ -146,7 +146,7 @@ class HomeController : Initializable {
 
         }
 
-        Platform.runLater { quadTreeController.quadTreeModified() }
+        Platform.runLater { quadtreeController.quadTreeModified() }
 
     }
 
@@ -162,7 +162,7 @@ class HomeController : Initializable {
 
         rebuildDisposable = Single.fromCallable {
 
-            val old = quadTreeController.quadTree.value
+            val old = quadtreeController.quadTree.value
 
             val new = QuadTree(Rectangle(width.text?.toIntOrNull() ?: 600, height.text?.toIntOrNull() ?: 600), capacity.text?.toIntOrNull() ?: 4)
 
@@ -175,7 +175,7 @@ class HomeController : Initializable {
             .subscribeOn(Schedulers.computation())
             .subscribe({
 
-                quadTreeController.quadTree.value = it
+                quadtreeController.quadTree.value = it
 
             }, Throwable::printStackTrace)
 
