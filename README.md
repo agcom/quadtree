@@ -1,3 +1,5 @@
+:warning: No longer maintained, BUT, feel free to **fork** it! :warning:
+
 # Point Quadtree visualizer
 
 An application which offers a **Point Quadtree** implementation within a flexible **visualizer**.
